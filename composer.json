@@ -12,6 +12,7 @@
     ],
     "require": {
         "php" : ">=7.2.0",
+        "ext-simplexml": "*",
         "vimeo/psalm": "^3.5"
     },
     "require-dev": {
@@ -27,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Sfp\\Psalm\\PsrLogPlugin\\": ["."]
+            "Sfp\\Psalm\\PsrLogPlugin\\": "src"
         }
     },
     "autoload-dev": {
